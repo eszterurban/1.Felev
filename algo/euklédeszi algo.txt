@@ -1,0 +1,17 @@
+def lnko():
+    a = int(input('Adjon meg egy számot: '))
+    b = int(input('Adjon meg még egy számot: '))
+    r=1
+    while(r>0):
+         r=a%b
+         a=b
+         b=r
+    print(a)
+
+c = a 
+a = b 
+b = c
+
+a= a+b
+b=a-b
+a=a-b

@@ -1,0 +1,22 @@
+#növekvő sorrendbe rendezi
+def rendez(A):
+    for i in range(len(A)-1):
+        for j in range(i+1,len(A)):
+            if A[i]>A[j]:
+                c=A[i]
+                A[i] = A[j]
+                A[j]=c
+    print(A)
+
+#növekvő a min elem kiválasztással
+def rendez2(A):
+    for i in range(len(A)-1):
+        index = i
+        for j in range(i+1,len(A)):
+            if A[index]>A[j]:
+                index = j
+        c=A[i]
+        A[i] = A[index]
+        A[index]=c
+    print(A)
+

@@ -1,0 +1,21 @@
+Algoritmus: Tervszerűség egy elvégzendő cselekvéssorozatot lépésről lépésre megtervezünk 
+úgy is mondhatjuk hogy algoritmus adunk neki egy adott cél eléréséhez.
+ 
+Az algoritmusok tulajdonágai:
+	van in és out putja
+	egyértelmű
+	véges
+	teljes
+	determisztikus: mindig ugyanaz az eredménye
+	redundáns lépéseket nem tartalmaz
+
+Egy algoritmus lehet elemi v öszetett
+
+Szekvencia: egymás után hajtódnak végre a feladatok
+Szelekció: az igaz vagy hamis feltételtől függ a végrehajtódás
+Iteráció: meghatározott utasítás tetszőleges számú végrehajtása
+
+Algoritmusok leírása:
+	folyamatábra:nyilakkal/ábrákkal írjuk le a működést
+	pszeudokód: utasításokat kell leírni
+	struktogram: téglalapokba foglalja a szerkezeti egységeket

@@ -1,0 +1,53 @@
+1. feladat. Adjon meg a L= (LC[x,y,z], Const Term, Form) elsőrendű logikai nyelvhez tartozó logikai konstansokat (a Const halmaz elemeit), hogy a nyelv alkalmas legyen a kovetkező allitások formalirálására, és formalizálja az allitásokat.
+ 1. A Medve senkitől sem fel.
+ 2. Senki sem fél önmagátol
+ 3. Senki sem fél önmagitol, csak a Nyuszika.
+ 4. A Medve senkitől sem fél, de a Medvétől mindenki fél.
+
+
+
+2. feladat. Adjon meg a következő nulladrendű logilai formulákkal ekvivalens formulákat melyek konjunktiv normálformaban és diszjunktiv normalformában vannak.
+ 1. p /\ q /\ r
+ 2 (p \/ q \/ ¬r) /\ (¬p \/ ¬q \/ r)
+
+
+
+3. feladat. Tekintsük a rezolúciót, mint nulladerendű formulahalmazok kielégíthetetlenségének
+igazolására szolgáló módszert. Az alábbi állítások közül melyik (melyek) fejezik ki a módszer
+  • teljességét
+  • helyességét?
+Az állítások:
+ 1. Ha a formulahalmaz kielegithetetlen, akkor a hozzá tartozó klózhalmazból levezethető az
+   üres klóz.
+ 2 Ha a formulahalmazhoz tartozó klózhalmazból nem vezethető le az üres klóz, akkor a
+   formulahalmaz kielégithető.
+ 3. Ha a formulahalmazhoz tartozó klózhalmazból levezethetó az üres klóz, akkor a formula
+   halmaz kielégithetetlen.
+ 4. Ha a formulahalmaz kielégíthető, akkor a hozzá tartozó klózhalmazból nem vezethető le az
+   üres klóz.
+Valaszát indokolja meg minél részletesebben.
+
+
+4. feladat. Az alábbiak közül mi mondható el arról a formuláról,melynek negáltjához meg-
+konstruálva a szemantikus táblát, olyan fát kapunk, melynek három levele közül kettő zárt, egy pedig nem zárt:
+  a formula érvényes (logikai törvény),
+  a forumla kielégithető,
+  a formula ellentmondás.
+Válaszát indokolja  meg minel részletesebben.
+
+5. feladat. Igaz-e a következő allitás: 
+Ha egy nulladrenda formulához tartozó igazságtáblázatnak nincsen olyan oszlopa, amelyik csupa 1-es (igaz) értéket tartalmaz, 
+akkor a formula nem lehet logilai törvény.
+ Valaszát indokolja
+        meg minėl részletesebben.
+
+6. feladat. Az alábbi (U, p)
+           interpretációlk közül melyik modellje a következő formulának:
+         JxJyJz(P(x,y)/\P(z,y)/\P(x,z)/\¬P(z,x))
+1. U- (0,1,2,...} (a természetes
+              számok halmaza), p pedig olyan, hogy P(m, n) akkor és
+  csak akkor teljesül, ha m <n.
+2. U = {0,1,2, ..} (a természetes számok
+                 halmaza), p pedig olyan, hogy P(m, n) akkor és
+  csak akkor teljesül, ha n = m+1
+Válaszát indokolja meg minél részletesebben.

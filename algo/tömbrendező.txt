@@ -1,0 +1,41 @@
+# Tömb legkisebb elemeinek és annak az indexének meghatározása
+def min(A):
+    min=A[0]
+    index = 0
+    for i in range(1,len(A)):
+        if A[i]<min:
+              min=A[i]
+              index = i
+    print(min)
+    print(index)
+
+# Tömb növekvő sorrend de csak az elsőt cseréli a legkisebbre
+def rend0(A):
+    min=A[0]
+    index = 0
+    for i in range(1,len(A)):
+        if A[i]<min:
+              min=A[i]
+              index = i
+    print(min)
+    print(index)
+# csere
+    c = A[0]
+    A[0] = A[index]
+    A[index] = c
+    print(A)
+
+# Tömb növekvő sorrend
+def rendhibas(A):
+    min=A[0]
+    index = 0
+    for i in range(1,len(A)):
+        for j in range(i,len(A)):
+            if A[j]<min:
+                min=A[j]
+                index = j
+                # csere
+                c = A[i-1]
+                A[i-1] = A[index]
+                A[index] = c
+    print(A)

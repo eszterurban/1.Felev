@@ -1,0 +1,48 @@
+def lista():
+    n=int(input('Adja meg a lista méretét: '))
+    A=[ ]
+    for i in range(n):
+         A.append(int(input('Adja meg a tömb elemeit: ')))
+    print(A)
+
+A=[3,6,2,8]
+def páros(A):
+    B=[]
+    for i in A:
+        if i%2==0:
+            B.append(i)
+    print(B)
+
+A=[3,6,2,8]
+def min(A):
+    min=A[0]
+    for i in A:
+        if i<min:
+              min=i
+    print(min)
+
+A=[3,6,2,8]
+def max(A):
+    max=A[0]
+    for i in A:
+        if i>max:
+              max=i
+    print(max)
+
+def osszeg(A):
+    szam=0
+    for i in A:
+        szam = i + szam
+    print(szam)
+
+def szorzat(A):
+    szam=1
+    for i in A:
+        szam = i * szam
+    print(szam)
+
+def atlag(A):
+    szam=0
+    for i in A:
+        szam = i + szam
+    print(szam/len(A))
